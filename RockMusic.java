@@ -7,6 +7,6 @@ public class RockMusic extends MusicStyles {
 	@Override
 	public void playMusic() {
 		System.out
-				.println("Play " + RockMusic.this.getMusicianPerformer() + "\nIt’s " + PopMusic.class.getName() + "\n");
+				.println("Play " + RockMusic.this.getMusicianPerformer() + "\nIt’s " + RockMusic.class.getName() + "\n");
 	}
 }

@@ -7,6 +7,6 @@ public class ClassicMusic extends MusicStyles {
 	@Override
 	public void playMusic() {
 		System.out.println(
-				"Play " + ClassicMusic.this.getMusicianPerformer() + "\nIt’s " + PopMusic.class.getName() + "\n");
+				"Play " + ClassicMusic.this.getMusicianPerformer() + "\nIt’s " + ClassicMusic.class.getName() + "\n");
 	}
 }
